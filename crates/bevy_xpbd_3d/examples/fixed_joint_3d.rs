@@ -1,3 +1,7 @@
+//! This examples provides a physics demonstration of a 3D fixed joint.
+//! In the realm of physics simulation, a fixed joint (also known as a rigid joint or a weld joint)
+//! is a type of constraint which rigidly connects two bodies together, so they move as a single entity.
+
 use bevy::prelude::*;
 use bevy_xpbd_3d::{math::*, prelude::*};
 use examples_common_3d::XpbdExamplePlugin;
